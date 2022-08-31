@@ -18,6 +18,7 @@ a {
 a:hover {
   color: blueviolet;
 }
+
 /* Header */
 
 header {
@@ -73,6 +74,13 @@ hr {
   color: navy;
   font-size: 35px;
 }
+.box h5 {
+  text-align: center;
+}
+
+.box h4:hover {
+  color: rgb(73, 0, 128);
+}
 
 .card {
   overflow: auto;
@@ -82,6 +90,30 @@ hr {
   width: 100%;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Button  */
+.btn {
+  border: 3px solid navy;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: navy;
+}
+
+.btn:hover {
+  border: 3px solid rgb(73, 0, 128);
+  background-color: white;
+}
+
+/* Footer */
+
 @media (max-width: 992px) {
   .menu {
     flex-direction: column;
@@ -90,5 +122,10 @@ hr {
 
   .info {
     flex-direction: column;
+  }
+
+  .column {
+    float: none;
+    width: 100%;
   }
 }
