@@ -19,3 +19,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Code Used
 HTML and CSS
+
+## Screenshot
+![This is an image of my project](https://github.com/megsra17/challenge2/blob/main/assets/images/Screen%20Shot%202022-09-01%20at%203.33.59%20PM.png)
+
+## Url Link
+[Challange 2](https://megsra17.github.io/challenge2/)
